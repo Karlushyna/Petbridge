@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Petbridge/static/css/main.7acaea2f.css",
+    "main.js": "/Petbridge/static/js/main.07d3183d.js",
+    "index.html": "/Petbridge/index.html",
+    "main.7acaea2f.css.map": "/Petbridge/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/Petbridge/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
