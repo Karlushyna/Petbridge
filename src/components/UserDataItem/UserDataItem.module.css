@@ -1,0 +1,44 @@
+.container {
+  position: relative;
+  border: 1px solid var(--color-blue);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.container[data-not-editable="true"] {
+  opacity: 0.5;
+}
+
+.container[data-not-editable="true"] .editIcon {
+  cursor: default;
+}
+
+.input {
+  padding: 4px 48px 4px 12px;
+  height: 32px;
+  outline: none;
+
+  font-family: 'Manrope';
+  font-size: 16px;
+  line-height: 1.37;
+
+  max-width: 100%;
+}
+
+.input[data-disabled="true"] {
+  cursor: default;
+}
+
+@media screen and (max-width: 767px) {
+  .input {
+    height: 28px;
+  }
+}
+
+.editIcon {
+  position: absolute;
+  cursor: pointer;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}

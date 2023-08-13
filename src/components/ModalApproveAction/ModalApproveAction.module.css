@@ -1,0 +1,99 @@
+.title {
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: var(--color-dark);
+  margin-bottom: 50px;
+
+  @media (min-width: 768px) {
+      font-size: 36px;
+      line-height: 49px;
+    
+  }
+}
+
+.modalApprove {
+  width: 280px;
+
+  @media (min-width: 768px) {
+      width: 608px;
+  }
+}
+
+.modalBtnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--color-dark);
+
+  max-width: 393px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  text {
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 52px;
+    margin-bottom: 60px;
+  }
+}
+
+.modalBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 28px;
+  width: 129px;
+  height: 40px;
+  color: var(--color-blue);
+  outline: none;
+  background-color: transparent;
+  border: 2px solid var(--color-blue);
+  border-radius: 40px;
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.modalBtn:hover,
+.modalBtn:focus {
+  color: var(--color-light-background);
+  border: 1px solid var(--color-blue);
+  background: var(--color-blue-gradient);
+  color: var(--color-light-background);
+}
+
+.icon {
+  color: inherit;
+  margin-left: 8px;
+  width: 24px;
+  height: 24px;
+} 
+
+.modalBtn:hover .icon {
+  color: var(--color-light-background);
+}
+
+.whiteBtn {
+  background-color: var(--color-light-background);
+  color: var(--color-blue);
+  border: 2px solid var(--color-blue);
+  margin-right: 17px;
+}

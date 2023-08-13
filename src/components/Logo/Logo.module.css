@@ -1,0 +1,19 @@
+.logo {
+  display: flex;
+  align-items: center;
+
+  width: 116px;
+  height: 20px;
+
+  transition: all 200ms ease-in ;
+  
+  @media screen and (min-width: 768px) {
+    width: 162px;
+    height: 28px;
+  }
+}
+
+.logo:hover, 
+.logo:focus {
+  opacity: 0.7;
+}

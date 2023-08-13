@@ -1,0 +1,24 @@
+.container[data-refreshing="true"]{
+  opacity: 0.5;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8px 16px;
+
+  align-items: baseline;
+}
+
+@media screen and (max-width: 767px) {
+  .form {
+    gap: 12px 8px;
+  }
+}
+
+.label {
+  font-family: 'Manrope';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.38;
+}

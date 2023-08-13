@@ -1,0 +1,254 @@
+.inputList {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 0;
+
+     @media (min-width: 768px) {
+          font-size: 36px;
+          gap: 32px;
+    }
+}
+.input{
+    position: relative;
+    width: 256px;
+    height: 48px;
+    padding: 12px 16px;
+    border: 1px solid #54ADFF;
+    border-radius: 40px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #888888;
+
+     @media (min-width: 768px) {
+        width: 458px;  
+    }
+}
+.errorInput {
+    border: 1px solid #F43F5E;
+}
+.validInput {
+    border: 1px solid #00C3AD;
+}
+.errorMessageEmail {
+    position: absolute;
+    margin-left: 18px;
+    margin-top: 49px;
+
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+
+    color: #F43F5E;
+
+    @media (min-width: 768px) {
+          margin-left: 17px;
+          margin-top: 50px;
+    }
+}
+.validMessageEmail {
+    position: absolute;
+    margin-left: 18px;
+    margin-top: 49px;
+
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+
+    color: #00C3AD;
+
+     @media (min-width: 768px) {
+          margin-left: 17px;
+          margin-top: 50px;
+    }
+}
+
+.errorMessagePass {
+    position: absolute;
+    margin-left: 18px;
+    margin-top: 121px;
+    
+
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+
+    color: #F43F5E;
+
+    
+     @media (min-width: 768px) {
+         margin-left: 17px;
+         margin-top: 130px;
+    }
+}
+.validMessagePass {
+    position: absolute;
+    margin-left: 18px;
+    margin-top: 121px;
+    
+
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+
+    color: #00C3AD;
+
+    
+     @media (min-width: 768px) {
+         margin-left: 17px;
+         margin-top: 130px;
+    }
+}
+.errorMessageConfPass {
+    position: absolute;
+    margin-left: 18px;
+    margin-top: 193px;
+    
+
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+
+    color: #F43F5E;
+
+    @media (min-width: 768px) {
+          margin-left: 17px;
+          margin-top: 210px;
+    }
+}
+.validMessageConfPass {
+    position: absolute;
+    margin-left: 18px;
+    margin-top: 193px;
+    
+
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+
+    color: #00C3AD;
+
+        @media (min-width: 768px) {
+          margin-left: 17px;
+          margin-top: 210px;
+    }
+}
+
+.linklist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 24px;
+    margin-bottom: 0;
+
+    @media (min-width: 768px) {
+         margin-top: 16px;
+    }
+}
+.txtLink {
+   font-family: 'Manrope';
+   font-size: 12px;
+   line-height: 1.33;
+   text-align: center;
+   letter-spacing: 0.04em;
+   color: #888888;
+   padding: 0;
+   margin: 0;
+}
+.btnLink {
+   font-family: 'Manrope';
+   font-size: 12px;
+   line-height: 1.33;
+   text-align: center;
+   letter-spacing: 0.04em;
+   text-decoration-line: underline;
+   color: #54ADFF;
+   cursor: pointer;
+   padding: 0;
+}
+.btnLogContainer {
+    width: 100%;
+    margin-top: 55px;
+
+    @media (min-width: 768px) {
+         margin-top: 28px;
+    }
+}
+.btnRegContainer {
+    width: 100%;
+    margin-top: 15px;
+
+     @media (min-width: 768px) {
+         margin-top: 8px;
+    }
+}
+.close {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    background-color: white;
+    fill: #F43F5E;
+    margin-top: -38px;
+    margin-left: 198px;
+
+      @media (min-width: 768px) {
+         margin-top: -38px;
+         margin-left: 400px;
+    }
+}
+.valid {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    background-color: white;
+    fill: #00C3AD;
+    margin-top: -38px;
+    margin-left: 198px;
+
+      @media (min-width: 768px) {
+         margin-top: -38px;
+         margin-left: 400px;
+    }
+}
+.eyePass{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    margin-top: 84px;
+    margin-left: 216px;
+    color: #54ADFF;
+    fill: #54ADFF;
+    background-color: white;
+
+    @media (min-width: 768px) {
+         margin-top: 82px;
+         margin-left: 418px;
+    }
+}
+.eyePassConfirm{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    margin-top: 156px;
+    margin-left: 216px;
+    color: #54ADFF;
+    fill: #54ADFF;
+    background-color: white;
+
+    @media (min-width: 768px) {
+         margin-top: 161px;
+         margin-left: 418px;
+    }
+}
+
